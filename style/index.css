@@ -1,7 +1,7 @@
 #navbar {
-    width: 100%;
+    width: auto;
     height: 60px;
-    border: 1px solid red;
+    border: 1px solid transparent;
     display: flex;
     flex-direction: row;
     background-color: royalblue;
@@ -11,4 +11,23 @@
     width: 33%;
     height: 100%;
     text-align: center;
+}
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    margin-top: 100px;
+}
+
+#menu > div {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    border: 1px solid transparent;
+}
+
+div > img {
+    width: 100%;
+    height: auto;
 }
